@@ -1,0 +1,99 @@
+.expensive-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.expensive-header{
+    background-image: linear-gradient(to right top, #051937, #004d7a);
+    width: 70%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+.expensive-chart{
+    background: black;
+    height: 150px;
+    width: 70%;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.expensive-body{
+    background: black;
+    border-radius: 12px;
+    width: 70%;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.card-body{
+    background: rgb(72, 69, 69);
+    padding: 15px;
+    border-radius: 12px;
+}
+.date{
+    border: 2px solid white;
+    width: 105px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: black;
+    margin: 20px;
+    
+}
+.date .content{
+   margin: 10px;
+}
+.price-item{
+  margin: 50px;
+}
+.Item-price-border{
+    text-align: center;
+    border: 2px solid white;
+    background: #5F0A87;
+    border-radius: 12px;
+    width: 130px;
+    padding: 5px;
+}
+
+.chart{
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #f8dfff;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+}
+.chart-bar__fill{
+    background-color: #4826b9;
+    width: 100%;
+    transition: all 0.3s ease-out;
+}
+.chart-bar__label{
+   font-weight: bold;
+   font-size: 0.5rem;
+   text-align: center;
+   color: black;
+}
+.chart-bar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chart-bar__inner{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #313131;
+    border-radius: 12px;
+    background-color: #c3b4f3;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+  
+
